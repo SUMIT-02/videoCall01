@@ -6,7 +6,7 @@ const io = require("socket.io")(server, {
 	cors: {
 		origin: [
       "https://65634f3025d30a719a296216--dazzling-gecko-616da4.netlify.app",
-      "http://65634f3025d30a719a296216--dazzling-gecko-616da4.netlify.app/",
+      "http://65634f3025d30a719a296216--dazzling-gecko-616da4.netlify.app",
     ],
 		methods: [ "GET", "POST" ]
 	}
